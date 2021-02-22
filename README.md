@@ -35,6 +35,10 @@ variable "ssh_key" {
 
 ## Deployment
 
+### Initialize the modules
+
+`terraform init`
+
 ### Plan the deployment
 
 `terraform plan -var-file="user.tfvars"`
